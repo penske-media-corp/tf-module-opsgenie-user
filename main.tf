@@ -4,7 +4,7 @@ resource "opsgenie_user" "this" {
   role              = "each.role"
   locale            = "each.locale"
   timezone          = "each.timezone"
-  tags              = "each.tags"
+  tags              = ["each.tag"]
   user_address {
       country       = "each.country"
       state         = "each.state"
