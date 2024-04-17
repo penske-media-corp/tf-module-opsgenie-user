@@ -28,4 +28,3 @@ variable "tags" {
     description = "map of tags"
     default = {}
 }
-
