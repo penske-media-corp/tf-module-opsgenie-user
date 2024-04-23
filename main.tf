@@ -1,4 +1,4 @@
-resource "opsgenie_user" "this" {
+resource "opsgenie-user" "this" {
   username          = "each.username"
   full_name         = "each.full_name"
   role              = "each.role"
