@@ -12,4 +12,9 @@ resource "opsgenie-user" "this" {
       line          = "each.line"
       zipcode       = "each.zipcode"
   }
+  lifecycle {
+    ignore_changes = [
+      username
+     ]
+  }
 }
