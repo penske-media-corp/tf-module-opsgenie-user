@@ -1,4 +1,4 @@
-resource "opsgenie-user" "this" {
+resource "opsgenie_user" "this" {
   username          = "each.username"
   full_name         = "each.full_name"
   role              = "each.role"
@@ -11,5 +11,10 @@ resource "opsgenie-user" "this" {
       city          = "each.city"
       line          = "each.line"
       zipcode       = "each.zipcode"
+  }
+  lifecycle {
+    ignore_changes = [
+      username
+     ]
   }
 }
