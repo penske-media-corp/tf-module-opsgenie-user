@@ -4,12 +4,13 @@ resource "opsgenie_user" "this" {
   role              = var.role
   locale            = var.locale
   timezone          = var.timezone
-
-  user_address {
+  #tags              = var.tags
+/*  user_address {
       country       = var.country
       state         = var.state
       city          = var.city
       line          = var.line
       zipcode       = var.zipcode
   }
+ */ 
 }
