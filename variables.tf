@@ -23,6 +23,7 @@ variable "timezone" {
     description = "value for timezone"
     default = ""
 }
+/*
 variable "country" {
     type = string
     description = "value for country"
@@ -48,3 +49,9 @@ variable "zipcode" {
     description = "value for zipcode"
     default = ""
 }
+
+variable "tags" {
+    type = list(string)
+    description = "value for tags"  
+}
+*/
