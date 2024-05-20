@@ -23,35 +23,3 @@ variable "timezone" {
     description = "value for timezone"
     default = ""
 }
-/*
-variable "country" {
-    type = string
-    description = "value for country"
-    default = ""
-}
-variable "state" {
-    type = string
-    description = "value for state"
-    default = ""
-}
-variable "city" {
-    type = string
-    description = "value for city"
-    default = ""
-}
-variable "line" {
-    type = string
-    description = "value for line"
-    default = ""
-}
-variable "zipcode" {
-    type = string
-    description = "value for zipcode"
-    default = ""
-}
-
-variable "tags" {
-    type = list(string)
-    description = "value for tags"  
-}
-*/
